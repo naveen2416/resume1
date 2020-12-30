@@ -1,0 +1,176 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.container{
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-image: url("nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.i{
+    color: black;
+    background-color: red;
+}
+.a{
+   font-size: 20px;
+   color:orange;
+   border: dotted 3px red;
+   width: 200px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+   padding: 5px;
+}
+label{
+    line-height: 50px;
+    width: 200px;
+    display: inline-block;
+    
+}
+.container1{
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkslateblue;
+    padding: 10px;
+    border: solid 5px black;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+    background-color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 3px blue;
+}
+p{
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+ul{
+    margin-left: 40px;
+}
+.table,.table th,.table tr,.table td{
+    border: solid 5px black;
+    width: 95%;
+    text-align: center;
+    padding: 5px;
+    margin-left: 20px;
+}
+.table1,.table1 tr,.table1 td{
+    border: solid 5px black;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    margin-left: 20px;
+}
+.table2,.table2 tr,.table2 td{
+    border: solid 5px black;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    margin-left: 20px;
+}
